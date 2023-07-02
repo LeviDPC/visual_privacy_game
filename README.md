@@ -8,4 +8,4 @@ Webstorm allows you to authenticate github for clone / push / pull. Some opperat
 
 Deploy to github pages guide used: https://github.com/gitname/react-gh-pages
 
-From here on out we should just need to delete the gh-pages branch and then run `npm run deploy -- -m "Deploy React app to GitHub Pages"` to deploy changes to github pages.
+From here on out we should just need to delete the gh-pages branch and redeploy it. This will work: `git push origin --delete gh-pages; npm run deploy -- -m "Deploy React app to GitHub Pages"` Consider setting git to cache your credentials: `git config --global credential.helper cache`
