@@ -13,7 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "homepage": "https://levidpc.github.io",
+    "homepage": "https://levidpc.github.io/visual_privacy_game/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
