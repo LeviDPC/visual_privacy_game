@@ -2,7 +2,7 @@
   "name": "visual_privacy_game",
   "version": "0.1.0",
   "homepage": "https://levidpc.github.io/visual_privacy_game/",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
